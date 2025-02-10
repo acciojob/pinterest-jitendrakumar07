@@ -1,1 +1,64 @@
-/*  your css code here. If applicable */
+
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100vh;
+            width: 100%;
+        }
+
+        /* Left Section - Image */
+        .hero img {
+            width: 60%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Right Section - Text */
+        .hero-content {
+            width: 40%;
+            padding: 50px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero-content h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .hero-content a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #d33;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero-content a:hover {
+            background-color: #a00;
+        }
+
+   
